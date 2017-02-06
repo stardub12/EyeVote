@@ -13,6 +13,7 @@
 		7DF5B3471E48F1AA00AFF55E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF5B3451E48F1AA00AFF55E /* Main.storyboard */; };
 		7DF5B3491E48F1AA00AFF55E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DF5B3481E48F1AA00AFF55E /* Assets.xcassets */; };
 		7DF5B34C1E48F1AA00AFF55E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF5B34A1E48F1AA00AFF55E /* LaunchScreen.storyboard */; };
+		7DF5B3581E4921B500AFF55E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DF5B3571E4921B500AFF55E /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7DF5B3481E48F1AA00AFF55E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DF5B34B1E48F1AA00AFF55E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DF5B34D1E48F1AA00AFF55E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DF5B3571E4921B500AFF55E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ADB3C5FC4A320A68E66B04F6 /* Pods_EyeVote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EyeVote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3019B7335EA3A5B04481099 /* Pods-EyeVote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeVote.release.xcconfig"; path = "Pods/Target Support Files/Pods-EyeVote/Pods-EyeVote.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +86,7 @@
 				7DF5B3481E48F1AA00AFF55E /* Assets.xcassets */,
 				7DF5B34A1E48F1AA00AFF55E /* LaunchScreen.storyboard */,
 				7DF5B34D1E48F1AA00AFF55E /* Info.plist */,
+				7DF5B3571E4921B500AFF55E /* GoogleService-Info.plist */,
 			);
 			path = EyeVote;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DF5B34C1E48F1AA00AFF55E /* LaunchScreen.storyboard in Resources */,
+				7DF5B3581E4921B500AFF55E /* GoogleService-Info.plist in Resources */,
 				7DF5B3491E48F1AA00AFF55E /* Assets.xcassets in Resources */,
 				7DF5B3471E48F1AA00AFF55E /* Main.storyboard in Resources */,
 			);
@@ -376,6 +380,7 @@
 				7DF5B3521E48F1AA00AFF55E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
